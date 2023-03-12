@@ -1,9 +1,12 @@
-import Homepage from "./components/Homepage";
+import { Route, Routes } from "react-router-dom";
+import Articles from "./components/Dashboard/Articles.js";
+import Login from "./components/Login";
 
 export default function App() {
   return (
-    <div>
-      <Homepage />
-    </div>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/articles" element={<Articles />} />
+    </Routes>
   );
 }
