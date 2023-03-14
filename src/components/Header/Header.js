@@ -16,7 +16,7 @@ export default function Header() {
           stroke-width="1.5"
           stroke="currentColor"
           aria-hidden="true"
-          class="h-6 w-6"
+          className="h-6 w-6"
         >
           <path
             stroke-linecap="round"
@@ -28,13 +28,13 @@ export default function Header() {
 
       <div className="flex flex-1 justify-between px-4">
         <div className="flex flex-1">
-          <form class="flex w-full md:ml-0">
+          <form className="flex w-full md:ml-0">
             <label for="search-field" className="sr-only">
               Search
             </label>
-            <div class="relative w-full text-gray-400 focus-within:text-gray-600">
+            <div className="relative w-full text-gray-400 focus-within:text-gray-600">
               <div
-                class="pointer-events-none absolute inset-y-0 left-0 flex items-center"
+                className="pointer-events-none absolute inset-y-0 left-0 flex items-center"
                 bis_skin_checked="1"
               >
                 <svg
@@ -42,7 +42,7 @@ export default function Header() {
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   aria-hidden="true"
-                  class="h-5 w-5"
+                  className="h-5 w-5"
                 >
                   <path
                     fill-rule="evenodd"
@@ -53,7 +53,7 @@ export default function Header() {
               </div>
               <input
                 id="search-field"
-                class="block h-full w-full border-transparent py-2 pl-8 pr-3 text-gray-900 placeholder-gray-500 focus:border-transparent focus:placeholder-gray-400 focus:outline-none focus:ring-0 sm:text-sm"
+                className="block h-full w-full border-transparent py-2 pl-8 pr-3 text-gray-900 placeholder-gray-500 focus:border-transparent focus:placeholder-gray-400 focus:outline-none focus:ring-0 sm:text-sm"
                 placeholder="Search"
                 type="search"
                 name="search"
@@ -67,9 +67,9 @@ export default function Header() {
           <button
             type="button"
             data-tooltip-target="report-bug"
-            class="mx-2 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            className="mx-2 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
-            <span class="sr-only">Report bugs and complaints</span>
+            <span className="sr-only">Report bugs and complaints</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -77,7 +77,7 @@ export default function Header() {
               stroke-width="1.5"
               stroke="currentColor"
               aria-hidden="true"
-              class="h-6 w-6"
+              className="h-6 w-6"
             >
               <path
                 stroke-linecap="round"
@@ -89,9 +89,9 @@ export default function Header() {
         </div>
         <button
           type="button"
-          class="mx-2 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="mx-2 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
-          <span class="sr-only">View notifications</span>
+          <span className="sr-only">View notifications</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -99,7 +99,7 @@ export default function Header() {
             stroke-width="1.5"
             stroke="currentColor"
             aria-hidden="true"
-            class="h-6 w-6"
+            className="h-6 w-6"
           >
             <path
               stroke-linecap="round"
@@ -108,7 +108,7 @@ export default function Header() {
             ></path>
           </svg>
         </button>
-        <div class="relative ml-3">
+        <div className="relative ml-3">
           <div>
             <button
               className="flex max-w-xs items-center rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -118,7 +118,7 @@ export default function Header() {
               aria-expanded="false"
               data-headlessui-state=""
             >
-              <span class="sr-only">Open user menu</span>
+              <span className="sr-only">Open user menu</span>
 
               <span className="mr-3">
                 <img

@@ -24,7 +24,7 @@ export default function Dashboard() {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
                   >
                     <path
                       stroke-linecap="round"
@@ -45,7 +45,7 @@ export default function Dashboard() {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
                   >
                     <path
                       stroke-linecap="round"
@@ -66,7 +66,7 @@ export default function Dashboard() {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
                   >
                     <path
                       stroke-linecap="round"
@@ -87,7 +87,7 @@ export default function Dashboard() {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
                   >
                     <path
                       stroke-linecap="round"
@@ -108,7 +108,7 @@ export default function Dashboard() {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
                   >
                     <path
                       stroke-linecap="round"
@@ -129,7 +129,7 @@ export default function Dashboard() {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-indigo-300"
                   >
                     <path
                       stroke-linecap="round"
